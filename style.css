@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Press Start 2P', cursive;
+}
+
+.Boton-Caja{
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    height: 80px;
+    padding-left: 450px;
+}
+
+.Boton-Caja__botonInicio{
+    background: rgb(176, 56, 180);
+    transform: translate(0px, -39px);
+    color: #fff;
+    padding: 35px;
+    margin: 2px;
+    display: inline-block;
+    font-size: 10px;
+    text-decoration: none;
+    transition: .5s ease-out all;
+}
+.Boton-Caja__boton1 img{
+    width: 105px;
+    transform: translate(0px, -2px);
+    margin: 2px;
+    display: inline-block;
+}
+.Boton-Caja__boton2 img{
+    width: 100px;
+    height: 80px;
+    transform: translate(0px, -2px);
+    margin: 2px;
+    display: inline-block;
+}
+.Boton-Caja__boton3 img{
+    width: 100px;
+    height: 80px;
+    transform: translate(0px, -2px);
+    margin: 2px;
+    display: inline-block;
+}
+.Boton-Caja__botonContacto{
+    background: rgb(176, 56, 180);
+    transform: translate(0px, -39px);
+    color: #fff;
+    padding: 35px 12.5px 35px 12.5px;
+    display: inline-block;
+    margin: 2px;
+    font-size: 10px;
+    text-decoration: none;
+    transition: .5s ease-out all;
+}
+a:hover{
+    background: #fff;
+    color: #000;
+}
+a img:hover{
+    box-shadow: 0 0 10px #000
+}
